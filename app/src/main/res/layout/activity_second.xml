@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/daohang4"
+    tools:context="com.bwie.asus.project_qhl.SecondActivity">
+
+    <include
+        android:id="@+id/inciude"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/include"
+        />
+
+    <TextView
+        android:layout_below="@+id/inciude"
+        android:id="@+id/dao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="30dp"
+        android:textSize="25sp"
+        android:text="3秒"
+        />
+
+    <TextView
+        android:id="@+id/tiaoguo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="跳过>>"
+        />
+
+</RelativeLayout>
